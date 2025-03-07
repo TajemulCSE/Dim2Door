@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dim2Door - Fresh Eggs Delivery</title>
+  <link rel="stylesheet" href="homeindex.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Top Announcement -->
+  <div class="top-announcement" role="banner">
+    <span>Winter Sale For All Eggs And Free Express Delivery - OFF UPTO 20%!</span>
+    <a href="#" class="shop-now-link">Shop Now</a>
+  </div>
+  
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="Homeindex.html">
+        <img src="images/logo.png" alt="Dim2Door Logo">
+      </a>
+    </div>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="Homeindex.html">Home</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="pages/account.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <a href="#" class="language-selector">English</a>
+      <!-- Account Icon with Dropdown -->
+      <a href="javascript:void(0)" class="account-icon" id="accountIcon" aria-label="Account"><i class="fas fa-user"></i></a>
+      <div class="account-dropdown" id="accountDropdown">
+        <ul>
+          <li><a href="pages/account.html">My Account</a></li>
+          <li><a href="#">My Order</a></li>
+          <li><a href="#">My Cancellations</a></li>
+          <li><a href="#">My Reviews</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+      <a href="#" class="cart-icon" aria-label="View Cart"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </header>
+  
+  <!-- Hero Section with Sidebar and Giant Ad -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <aside class="sidebar">
+        <h3>Egg Variations</h3>
+        <ul>
+          <li><a href="#">Deshi Chicken Egg</a></li>
+          <li><a href="#">Layer Chicken Egg (Brown)</a></li>
+          <li><a href="#">Chittagong Chicken Egg</a></li>
+          <li><a href="#">Paragon Brown Eggs</a></li>
+          <li><a href="#">Quail Eggs</a></li>
+          <li><a href="#">Purnava Omega Eggs</a></li>
+          <li><a href="#">Duck Egg</a></li>
+          <li><a href="#">Sylhet Mati Duck Egg</a></li>
+          <li><a href="#">Nageswari Duck Egg</a></li>
+          <li><a href="#">Layer Chicken Eggs (White)</a></li>
+          <li><a href="#">Swan Egg</a></li>
+        </ul>
+      </aside>
+      <div class="hero-ad">
+        <img src="images/hero-ad.jpg" alt="Fresh Eggs Delivery">
+        <div class="ad-overlay">
+          <h2>Up to 10% off Voucher</h2>
+          <a href="#" class="shop-now-btn">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Explore By Category Section -->
+  <section class="egg-categories">
+    <h2>Explore By Category</h2>
+    <div class="category-grid">
+      <div class="category-item">
+        <img src="images/product-images/local-breeds.jpg" alt="Local Breeds">
+        <h3>Local Breeds</h3>
+      </div>
+      <div class="category-item">
+        <img src="images/product-images/farming-breeds.jpg" alt="Farming Breeds">
+        <h3>Farming Breeds</h3>
+      </div>
+      <div class="category-item">
+        <img src="images/product-images/duck-eggs.jpg" alt="Duck">
+        <h3>Duck</h3>
+      </div>
+      <div class="category-item">
+        <img src="images/product-images/quail-eggs.jpg" alt="Quail">
+        <h3>Quail</h3>
+      </div>
+      <div class="category-item">
+        <img src="images/product-images/paragon-eggs.jpg" alt="Paragon">
+        <h3>Paragon</h3>
+      </div>
+      <div class="category-item">
+        <img src="images/product-images/purnava-eggs.jpg" alt="Purnava">
+        <h3>Purnava</h3>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Best Selling Products Section -->
+  <section class="best-selling">
+    <h2>Best Selling Products This Month</h2>
+    <div class="products-grid">
+      <article class="product-card">
+        <img src="images/product-images/layer-chicken-egg.jpg" alt="Layer Chicken Egg">
+        <h3>Layer Chicken Egg</h3>
+        <p class="price">$120</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="images/product-images/layer-white-egg.jpg" alt="Layer Chicken White Egg">
+        <h3>Layer Chicken White Egg</h3>
+        <p class="price">$960</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="images/product-images/deshi-chicken-egg.jpg" alt="Deshi Chicken Egg">
+        <h3>Deshi Chicken Egg</h3>
+        <p class="price">$160</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="images/product-images/deshi-duck-egg.jpg" alt="Deshi Duck Egg">
+        <h3>Deshi Duck Egg</h3>
+        <p class="price">$360</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+    </div>
+    <a href="#" class="view-all-btn">View All Products</a>
+  </section>
+  
+  <!-- Flash Sale Section -->
+  <section class="flash-sale">
+    <h2>Today's Flash Sales</h2>
+    <div class="countdown" aria-label="Flash Sale Countdown Timer">
+      <div class="time-segment">
+        <span class="time">03</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="time-segment">
+        <span class="time">23</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="time-segment">
+        <span class="time">19</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="time-segment">
+        <span class="time">56</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+    <div class="flash-products">
+      <article class="flash-product">
+        <span class="discount">-40%</span>
+        <img src="images/product-images/aseel-egg.jpg" alt="Asil/Aseel Chicken Egg">
+        <h3>Asil/Aseel Chicken Egg</h3>
+        <p class="price">$120</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="flash-product">
+        <span class="discount">-35%</span>
+        <img src="images/product-images/layer-white-egg.jpg" alt="Layer Chicken Eggs (White)">
+        <h3>Layer Chicken Eggs (White)</h3>
+        <p class="price">$960</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="flash-product">
+        <span class="discount">-30%</span>
+        <img src="images/product-images/paragon-brown-eggs.jpg" alt="Paragon Brown Eggs">
+        <h3>Paragon Brown Eggs</h3>
+        <p class="price">$370</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+    </div>
+  </section>
+  
+  <!-- Explore Our Products Section -->
+  <section class="explore-products">
+    <h2>Explore Our Products</h2>
+    <div class="products-grid">
+      <article class="product-card">
+        <img src="images/product-images/layer-chicken-egg.jpg" alt="Layer Chicken Egg">
+        <h3>Layer Chicken Egg</h3>
+        <p class="price">$120</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="images/product-images/layer-white-egg.jpg" alt="Layer Chicken White Egg">
+        <h3>Layer Chicken White Egg</h3>
+        <p class="price">$960</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="images/product-images/deshi-chicken-egg.jpg" alt="Deshi Chicken Egg">
+        <h3>Deshi Chicken Egg</h3>
+        <p class="price">$160</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="images/product-images/deshi-duck-egg.jpg" alt="Deshi Duck Egg">
+        <h3>Deshi Duck Egg</h3>
+        <p class="price">$360</p>
+        <button class="add-to-cart">Add To Cart</button>
+      </article>
+    </div>
+  </section>
+  
+  <!-- User Account Section -->
+  <section class="user-account">
+    <h2>Manage My Account</h2>
+    <nav class="account-options" aria-label="User Account Options">
+      <a href="#">My Order</a>
+      <a href="#">My Cancellations</a>
+      <a href="#">My Reviews</a>
+      <a href="#">Logout</a>
+    </nav>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <section class="footer-section subscribe">
+        <h4>Exclusive</h4>
+        <p>Subscribe</p>
+        <p>Get 10% off your first order</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email" aria-label="Email Address">
+          <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </section>
+      <section class="footer-section support">
+        <h4>Support</h4>
+        <p>111 Bijoy Sarani, Dhaka, DH 1515, Bangladesh</p>
+        <p><a href="mailto:dim2door@gmail.com">dim2door@gmail.com</a></p>
+        <p><a href="tel:+8801736238281">+8801736238281</a></p>
+      </section>
+      <section class="footer-section account">
+        <h4>Account</h4>
+        <ul>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Login / Register</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Wishlist</a></li>
+        </ul>
+      </section>
+      <section class="footer-section quick-links">
+        <h4>Quick Link</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <div class="delivery-info">
+        <div class="info-item">
+          <i class="fas fa-truck" aria-hidden="true"></i>
+          <div>
+            <h5>FREE AND FAST DELIVERY</h5>
+            <p>Free delivery for all orders over $140</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-headset" aria-hidden="true"></i>
+          <div>
+            <h5>24/7 CUSTOMER SERVICE</h5>
+            <p>Friendly 24/7 customer support</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
+          <div>
+            <h5>MONEY BACK GUARANTEE</h5>
+            <p>We return money within 30 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="download-app">
+        <p>Download App</p>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; Dim2Door 2024. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="Home.js"></script>
+</body>
+</html>
