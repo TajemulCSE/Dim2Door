@@ -1,0 +1,43 @@
+.admin-layout {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admin-sidebar {
+    width: 220px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-sidebar li {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #495057;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .admin-sidebar li:hover {
+    background-color: #6c757d;
+  }
+  
+  .admin-main {
+    flex: 1;
+    padding: 40px;
+    background-color: #f8f9fa;
+  }
+  

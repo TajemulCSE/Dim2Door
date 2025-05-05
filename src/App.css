@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.admin-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

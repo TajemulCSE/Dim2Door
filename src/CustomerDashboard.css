@@ -1,0 +1,64 @@
+.customer-dashboard-layout {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* More vibrant gradient background */
+  .customer-sidebar {
+    width: 250px;
+    background: linear-gradient(180deg, #d8fd08, #569ff1);
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  .customer-sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .customer-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .customer-sidebar li {
+    margin: 12px 0;
+  }
+  
+  .sidebar-link {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 6px;
+    transition: background-color 0.2s;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgba(255,255,255,0.3);
+  }
+  
+  .customer-main {
+    flex: 1;
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+  }
+  
