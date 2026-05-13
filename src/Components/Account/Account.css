@@ -1,0 +1,151 @@
+.profile-page {
+    padding: 30px 60px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .breadcrumb {
+    margin-bottom: 20px;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .profile-layout {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  .profile-sidebar {
+    min-width: 200px;
+    font-size: 14px;
+  }
+  
+  .profile-sidebar h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .profile-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .profile-sidebar li {
+    padding: 8px 0;
+    cursor: pointer;
+    color: #444;
+  }
+  
+  .profile-sidebar li.active {
+    color: #db4444;
+    font-weight: bold;
+  }
+  
+  .profile-form-container {
+    flex: 1;
+    background: #fdfdfd;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+  }
+  
+  .greeting {
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .profile-form h2 {
+    color: #db4444;
+    margin-bottom: 25px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-col input,
+  .form-row input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+  .cancel-btn {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background: #db4444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #000;
+    color: white;
+    padding: 40px 60px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .column h4 {
+    margin-bottom: 15px;
+  }
+  
+  .column input {
+    padding: 8px;
+    width: 80%;
+  }
+  
+  .app-buttons img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .qr-code {
+    width: 100px;
+    margin: 10px 0;
+  }
+  
+  .social-icons i {
+    margin-right: 10px;
+  }
+  
+  footer p {
+    font-size: 13px;
+  }
+  

@@ -1,0 +1,42 @@
+.deliveryman-layout {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .deliveryman-sidebar {
+    width: 220px;
+    background-color: #ffc107;
+    color: #333;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .deliveryman-sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .deliveryman-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .deliveryman-sidebar li {
+    margin: 12px 0;
+    padding: 10px;
+    background-color: #ffde59;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .deliveryman-sidebar li:hover {
+    background-color: #ffd500;
+  }
+  
+  .deliveryman-main {
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }

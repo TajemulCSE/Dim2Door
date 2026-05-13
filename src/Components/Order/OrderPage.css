@@ -1,0 +1,30 @@
+/* Full page height layout */
+.order-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content grows to fill space */
+.order-page {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Button styling */
+.back-home {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3c009d;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.back-home:hover {
+  background-color: #290066;
+}
